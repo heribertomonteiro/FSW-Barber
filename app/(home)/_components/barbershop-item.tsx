@@ -31,10 +31,10 @@ const BarbershopItem = ({ barbershop }: BarbershopItemProps) => {
           />
         </div>
         <div className="px-2 pb-3">
-          <h2 className="font-bold mt-2 text-sm texr-gray-400 overflow-hidden text-ellipsis text-nowrap">
+          <h2 className="font-bold mt-2 text-sm text-gray-400 overflow-hidden text-ellipsis text-nowrap">
             {barbershop.name}
           </h2>
-          <p className="text-sm texr-gray-400 overflow-hidden text-ellipsis text-nowrap">
+          <p className="text-sm text-gray-400 overflow-hidden text-ellipsis text-nowrap">
             {barbershop.address}
           </p>
           <Button variant="secondary" className="w-full mt-3">
