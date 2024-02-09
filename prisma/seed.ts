@@ -95,7 +95,7 @@ async function seedDatabase() {
     ];
 
     // Criar 10 barbearias com nomes e endereços fictícios
-    const barbershops = [];
+    const barbershops: any = [];
     for (let i = 0; i < 10; i++) {
       const name = creativeNames[i];
       const address = addresses[i];
@@ -120,7 +120,7 @@ async function seedDatabase() {
                 id: Barbershop.id,
               },
             },
-            imageUrl: service.imageUrl
+            imageUrl: service.imageUrl,
           },
         });
       }
