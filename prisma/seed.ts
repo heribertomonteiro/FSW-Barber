@@ -120,6 +120,7 @@ async function seedDatabase() {
                 id: Barbershop.id,
               },
             },
+            imageUrl: service.imageUrl
           },
         });
       }
